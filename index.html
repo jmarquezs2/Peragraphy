@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img/logo.jpg" />
+    <title>Página Principal</title>
+</head>
+<body class="container-fluid">
+<div class="row">
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   
+    <a href="sesiones.html">Mis sesiones</a><br>
+    <a href="trabajo.html">Como trabajo</a><br>
+    <a href="tarifas.html">Tarifas</a><br>
+    <a href="contacto.html">Sobre mi</a>
+  </div>
+  <header class="col-12">
+  <nav class="navbar navbar-light">
+      <span style="font-size:30px;cursor:pointer" class="d-md-block d-none" onclick="openNav()">&#9776; Menu Principal</span>
+    <h1 class="d-none d-md-block"> <a href="index.html">Peragraphy</a> </h1>
+    <h1 class="d-block d-md-none" id="titulo2"> <a href="index.html">Peragraphy</a> </h1>
+    <img src="img/logo.jpg" class="rounded-circle d-md-block d-none" id="logo" alt="">
+  </nav>
+</header>
+<nav class="col-12 d-block d-md-none" id="menuE">
+  <div class="row" >
+    <button  type="button" class=" col-12 btn btn-outline-dark   " data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Menu Principal</button>
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="row">
+     <button class="col-6 btn-outline-dark" onclick="location='sesiones.html'">Mis sesiones</button>
+     <button class="col-6 btn-outline-dark" onclick="location='trabajo.html'">Como trabajo</button>
+     <button class="col-6 btn-outline-dark" onclick="location='tarifas.html'">Tarifas</button>
+     <button class="col-6 btn-outline-dark" onclick="location='contacto.html'">Sobre mi</button>
+    </div>
+    </div>
+  </div>
+</nav>
+  <section class="col-12">
+
+    <div class="row justify-content-center my-5">
+      <h1 class="col-12 mb-5 order-md-1 "><u>¿Quien soy?</u></h1>
+    <img src="img/foto0.jpg"  class="col-lg-4 offset-lg-1  order-md-2  col-10 rounded img-fluid" alt="">
+    <p class="col-lg-4 col-12 offset-1 order-md-3  offset-lg-0 ">Soy un estudiante de Comunicación Audiovisual que en sus ratos libres se dedica al mundo de la fotografía. Realizo mis sesiones de fotos en exteriores. Puedes ver gran parte de mi trabajo previo en la cuenta de instagram de <a href="https://www.instagram.com/peragraphy1.4/">Peragraphy</a></p>
+   
+    <div class="offset-lg-2 offset-0 order-md-4 order-4"></div>
+    <h1 class="col-12 my-5 order-md-5 order-5 "><u>Mis sesiones</u></h1>
+    <p class="col-lg-4 col-10 offset-1  order-7 order-lg-6  offset-lg-2">En mis sesiones siempre intento que mi cliente pose en al menos 4 o 5 localizaciones diferentes. También me gusta jugar con los cambios de vestuario, para así dar mucha más variedad a la sesión, e incluso podamos combinar la ropa con el entorno.</p>
+    <div id="carouselExampleIndicators" class="carousel mb-5 slide  order-6 order-lg-7  col-lg-4 col-12 offset-lg-0" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/imagen16.jpg" id="carruimg" class="d-block w-100  rounded" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/imagen2.jpg" id="carruimg" class="d-block w-100 rounded" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/imagen3.jpg" id="carruimg" class="d-block w-100  rounded" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="offset-lg-2 order-md-8  offset-0"></div>
+      <h1 class="col-12 mb-5 order-md-9 "><u>Tarifas</u></h1>
+      <div class="card col-lg-4 order-md-10 mr-0  offset-lg-2  col-10 mb-4" id="preciosMain" style="width: 18rem;">
+        
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><b>Tarifa 1-10€</b><br>
+            2 horas, entrego todas las fotos + 4 editadas. +1,5€ por foto editada extra. </li>
+          <li class="list-group-item"><b>Tarifa 2-25€</b><br>
+            3 horas, entrego todas las fotos + 8 editadas. +1,5€ por foto editada extra.
+            </li>
+          <li class="list-group-item"><b>Tarifa 3-40€</b><br>
+            4 horas, entrego todas las fotos + editadas sin límite.</li>
+        </ul>
+      </div>
+      <p class="col-lg-4 col-12 offset-1 offset-lg-0   order-md-11 pr-5">Aquí explico de forma resumida mis precios. Si nesesitas ver alguna información más detallada de los precios puedes verlos en Tarifas.<br>Ademas, podrá contactar conmigo con la información que te dejo <a href="contacto.html">aquí</a>.</p>
+     
+      <div class="offset-lg-2 offset-0 order-md-12 "></div>
+  </div>
+
+  </section>
+
+  <footer class="col-12">
+    <div class="row">
+
+    
+    <p id="frasefooter" class="col-5 offset-7">"Muchas veces es más importante el ojo que la cámara"</p>
+    <!--<p class="col-12"><a href="https://www.instagram.com/peragraphy1.4/">Instagram</a></p>
+    <p class="col-12"><a href="https://twitter.com/DavidPerage">Twitter</a></p><br>
+    <p class="col-12"><a href="https://twitter.com/javi_marquez1">Twitter (Autor de la web)</a></p><br>-->
+    <span>Peragraphy</span>
+    <a href="https://www.instagram.com/peragraphy1.4/"><img src="img/instagram.png" alt=""></a>
+    <a href="https://twitter.com/DavidPerage"> <img src="img/twitter.png" alt=""></a>
+   
+  </div>
+  </footer>
+
+</div>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,175 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #A0C0C8 /*#f8c088*/ !important;
+  color : black !important;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #406068;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+ 
+  color : #f8c088;
+  
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+nav{
+  background-color: #406068;
+  
+  color : #f8c088;
+  
+}
+
+.container-fluid {
+  padding-right:0 !important;
+  padding-left:0 !important;
+  margin-right:auto;
+  margin-left:auto
+}
+section p{
+  font-size: 25px;
+}
+h1{
+  text-align: center;
+}
+footer{
+  background-color: #406068;
+  color : #f8c088;
+  font-size: 20px;
+  padding-left: 50px !important;
+ 
+}
+
+#frasefooter{
+  
+  margin-top: 20px;
+}
+
+#logo{
+  height: 100px;
+  width: 110px;
+}
+
+#carruimg{
+  height: 310px;
+}
+  h1 a{
+  text-decoration: none;
+  color: #f8c088; 
+}
+ h1 a:hover{
+  text-decoration: none;
+  color: #f8c088; 
+}
+footer img{
+  height: 50px;
+  margin: 5px;
+  width: 50px;
+}
+footer span{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+section a{
+  text-decoration: none !important;
+  color: orangered !important;
+ 
+}
+#preciosMain ul li,#preciosMain{
+  background-color:#406068;
+  color: #f8c088;
+ 
+}
+#menuE{
+  color: #f8c088 !important; 
+  background-color:#406068;
+}
+ nav button{
+  background-color:#406068;
+  color: #f8c088 !important;
+  font-size: 25px !important;
+}
+#titulo2{
+ margin-left: 25%;}
+
+ table{
+   background-color: #507880 !important;
+   text-align: center;
+   color: #f8c088 !important;
+   font-size: 20px;
+   vertical-align: middle;
+ }
+ #cuerpo{
+   padding-left: 50px;
+   padding-right: 50px;
+   
+   
+ }
+ #cuerpo p{
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+ }
+ #cuerpo2{
+  padding-left: 50px;
+  padding-right: 50px;
+  
+  
+}
+#cuerpo2 p{
+ font-size: 20px;
+ padding: 10px;
+ text-align: center;
+ justify-content: center;
+}
+#carruimg2{
+  height: 250px;
+}
+#cuerpo3{
+  padding-left: 50px;
+  padding-right: 50px;
+ margin-left: 20px !important;
+ margin-top: 100px;
+} 
+h2{
+  text-align: center;
+}
+ li {
+  list-style:none;
+  font-size: 20px;
+}
